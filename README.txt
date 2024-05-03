@@ -46,6 +46,7 @@ nohup mutatex /home/projects/22117_proteins/projects/group19/mutateX_binding/4O3
 /home/ctools/anaconda3_2021.11/bin/ddg2heatmap -p home/projects/22117_proteins/projects/group19/mutateX_binding/4O3M_DNA.pdb -l home/projects/22117_proteins/projects/group19/mutateX_binding/mutation_list.txt -q home/projects/22117_proteins/projects/group19/mutateX_binding/poslist.txt -d results/interface_ddgs/final_averages/A-B/
 #the output is *_heatmap.pdf
 
+#This part assumes you are in the folder: /home/people/s183220/22117_proteins/projects/group19/cabsflex
 #ensemble generation without restrains:
 nohup CABSflex -i 4O3M.pdb -k 10 -y 30 -a 10 -v 3 -z 10 -A
 
